@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+@theme {
+  /* -- Palette: dark theme, green / yellow / red only -- */
+  --color-ink:          #eef3e4;
+  --color-ink-soft:     #a9b8a3;
+  --color-paper:        #0c120d;
+  --color-surface:      #151d16;
+  --color-sand:         #2b392d;
+
+  /* green */
+  --color-primary:      #249152;
+  --color-primary-dark: #1a7541;
+  --color-primary-soft: #1b3a25;
+
+  --color-forest:       #123a1f;
+  --color-forest-dark:  #0a2414;
+  --color-forest-soft:  #b9dfc3;
+
+  /* yellow (replaces the old blue accent) */
+  --color-sky:          #38bdf8;
+  --color-sky-dark:     #0ea5e9;
+  --color-marigold:     #f5c518;
+  --color-monsoon:      #f5c518;
+  --color-monsoon-soft: #3a3110;
+
+  /* red */
+  --color-clay:         #ff7b66;
+  --color-clay-soft:    #3d1b16;
+
+  --radius-xl:  0.375rem;
+  --radius-2xl: 0.625rem;
+
+  --font-display: "Bricolage Grotesque", "Segoe UI", sans-serif;
+  --font-sans: "Figtree", "Segoe UI", sans-serif;
+}
+
+html {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-paper);
+  color-scheme: dark;
+}
+
+/* Dark-mode role fixes: tokens that were used both as text and as fills */
+.text-forest        { color: #8fd8a3; }
+.text-primary-dark  { color: #7fd69b; }
+.text-primary       { color: #4cc77c; }
+.bg-forest-soft     { background-color: #1c4228; }
+.bg-white           { background-color: var(--color-surface); }
+.bg-monsoon.text-white { color: #1a1500; }
+input, select, textarea { color: var(--color-ink); }
+input::placeholder { color: #6f806c; }
+.leaflet-container { background: #0c120d; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--color-surface); color: var(--color-ink); }
+
+/* Leaflet map fix — prevent Tailwind from capping tile image sizes */
+.leaflet-tile-container img,
+.leaflet-container img {
+  max-width: none !important;
+  max-height: none !important;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  border-radius: 0.25rem;
+  border: 1px solid var(--color-sand);
+  z-index: 1;
+}
+
+.crop-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.crop-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 4px 4px 0 var(--color-primary-soft);
+}
+
+/* Furrow lines behind dark bands */
+.field-texture {
+  background-image: repeating-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.045) 0px,
+    rgba(255, 255, 255, 0.045) 1px,
+    transparent 1px,
+    transparent 22px
+  );
+}
+
+h1, h2, h3 { font-family: var(--font-display); letter-spacing: -0.015em; }
+
+:focus-visible { outline: 2px solid var(--color-marigold); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+/* ---------- Motion ---------- */
+@keyframes rise   { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes grow   { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+@keyframes marquee{ to { transform: translateX(-50%); } }
+@keyframes pulse-ring { 0% { box-shadow: 0 0 0 0 rgba(245,197,24,.7); } 100% { box-shadow: 0 0 0 10px rgba(245,197,24,0); } }
+@keyframes shimmer{ to { background-position: -200% 0; } }
+@keyframes drift  { 0%,100% { background-position: 0 0; } 50% { background-position: 0 22px; } }
+
+.page-enter { animation: rise .45s cubic-bezier(.2,.7,.2,1) both; }
+
+.rise   { animation: rise .6s cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(var(--i, 0) * 90ms); }
+.bar-grow { transform-origin: bottom; animation: grow .7s cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(.35s + var(--i, 0) * 55ms); }
+.now-ring { animation: pulse-ring 1.8s ease-out infinite; }
+
+.field-texture { animation: drift 9s ease-in-out infinite; }
+
+.reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s cubic-bezier(.2,.7,.2,1); transition-delay: calc(var(--i, 0) * 70ms); }
+.reveal.in { opacity: 1; transform: none; }
+
+.marquee-track { display: flex; width: max-content; animation: marquee 38s linear infinite; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+
+.crop-card { animation: rise .5s cubic-bezier(.2,.7,.2,1) both; }
+.crop-card:nth-child(2){animation-delay:.06s}.crop-card:nth-child(3){animation-delay:.12s}
+.crop-card:nth-child(4){animation-delay:.18s}.crop-card:nth-child(5){animation-delay:.24s}
+.crop-card:nth-child(6){animation-delay:.30s}.crop-card:nth-child(n+7){animation-delay:.36s}
+
+button, a { transition: transform .15s ease, background-color .2s ease, opacity .2s ease, color .2s ease; }
+button:active:not(:disabled) { transform: scale(.97); }
+
+.skeleton { background: linear-gradient(90deg, var(--color-surface) 25%, var(--color-sand) 50%, var(--color-surface) 75%); background-size: 200% 100%; animation: shimmer 1.4s linear infinite; }
+
+/* ---------- Sky-blue buttons (opt-in via .btn-sky) ---------- */
+.btn-sky,
+.btn-sky.bg-forest, .btn-sky.bg-primary {
+  background-color: var(--color-sky);
+  color: #04263a;
+}
+.btn-sky:hover:not(:disabled),
+.btn-sky.bg-forest:hover:not(:disabled), .btn-sky.bg-primary:hover:not(:disabled) {
+  background-color: var(--color-sky-dark);
+}

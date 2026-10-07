@@ -1,0 +1,6310 @@
+[
+  {
+    "id": 1,
+    "name": "Rice",
+    "scientificName": "Oryza sativa",
+    "category": "Cereals",
+    "image": "🌾",
+    "duration": "120-150 days",
+    "yield": "3-4 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif",
+      "Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 1000,
+      "rainfallMax": 2000,
+      "soilTypes": [
+        "Clay",
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.0,
+      "waterNeeds": "High"
+    },
+    "profitability": {
+      "costPerHectare": 40000,
+      "revenuePerHectare": 80000,
+      "profitPerHectare": 40000,
+      "riskLevel": "Medium",
+      "marketDemand": "High",
+      "priceTrend": "Stable"
+    },
+    "description": "Rice is a staple cereal crop requiring flooded conditions. Ideal for regions with abundant water supply.",
+    "tips": [
+      "Maintain 2-3 inches standing water",
+      "Apply nitrogen in split doses",
+      "Control weeds early"
+    ],
+    "family": "Poaceae",
+    "nutrientDemand": "High",
+    "rootDepth": "Shallow",
+    "rotation": {
+      "goodAfter": [
+        "Wheat",
+        "Chickpea"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Vegetables"
+      ],
+      "avoid": [
+        "Rice"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Wheat",
+    "scientificName": "Triticum aestivum",
+    "category": "Cereals",
+    "image": "🌾",
+    "duration": "120-140 days",
+    "yield": "2.5-3.5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Rabi"
+    ],
+    "requirements": {
+      "tempMin": 10,
+      "tempMax": 25,
+      "rainfallMin": 500,
+      "rainfallMax": 1000,
+      "soilTypes": [
+        "Loamy",
+        "Clay Loam"
+      ],
+      "phMin": 6.0,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 35000,
+      "revenuePerHectare": 70000,
+      "profitPerHectare": 35000,
+      "riskLevel": "Low",
+      "marketDemand": "High",
+      "priceTrend": "Stable"
+    },
+    "description": "Wheat is a winter cereal crop grown in cooler temperatures. Perfect for rabi season cultivation.",
+    "tips": [
+      "Sow in rows with proper spacing",
+      "Control weeds after 30 days",
+      "Irrigate at critical stages"
+    ],
+    "family": "Poaceae",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [
+        "Rice",
+        "Maize"
+      ],
+      "goodBefore": [
+        "Rice",
+        "Vegetables"
+      ],
+      "avoid": [
+        "Wheat"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Maize",
+    "scientificName": "Zea mays",
+    "category": "Cereals",
+    "image": "🌽",
+    "duration": "90-110 days",
+    "yield": "3-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "requirements": {
+      "tempMin": 18,
+      "tempMax": 32,
+      "rainfallMin": 600,
+      "rainfallMax": 1200,
+      "soilTypes": [
+        "Loamy",
+        "Sandy Loam"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 30000,
+      "revenuePerHectare": 65000,
+      "profitPerHectare": 35000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Increasing"
+    },
+    "description": "Maize is versatile with high yield potential. Grows well in both kharif and rabi seasons.",
+    "tips": [
+      "Plant with 60cm spacing",
+      "Apply nitrogen at knee-high stage",
+      "Control stem borer"
+    ],
+    "family": "Poaceae",
+    "nutrientDemand": "High",
+    "rootDepth": "Deep",
+    "rotation": {
+      "goodAfter": [
+        "Wheat",
+        "Pulses"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Potato"
+      ],
+      "avoid": [
+        "Sorghum"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sorghum",
+    "scientificName": "Sorghum bicolor",
+    "category": "Cereals",
+    "image": "🌾",
+    "duration": "100-120 days",
+    "yield": "2-3 tons/hectare",
+    "investment": "Low",
+    "season": [
+      "Kharif",
+      "Summer"
+    ],
+    "requirements": {
+      "tempMin": 25,
+      "tempMax": 35,
+      "rainfallMin": 400,
+      "rainfallMax": 800,
+      "soilTypes": [
+        "Sandy",
+        "Loamy"
+      ],
+      "phMin": 6.0,
+      "phMax": 8.5,
+      "waterNeeds": "Low"
+    },
+    "profitability": {
+      "costPerHectare": 20000,
+      "revenuePerHectare": 45000,
+      "profitPerHectare": 25000,
+      "riskLevel": "Low",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Drought-resistant cereal crop suitable for arid regions. Used for food, fodder, and biofuel.",
+    "tips": [
+      "Sow after good rains",
+      "Thin to 10-15 cm spacing",
+      "Control shoot fly"
+    ],
+    "family": "Poaceae",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Deep",
+    "rotation": {
+      "goodAfter": [
+        "Chickpea",
+        "Groundnut"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Barley"
+      ],
+      "avoid": [
+        "Maize"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Pearl Millet",
+    "scientificName": "Pennisetum glaucum",
+    "category": "Cereals",
+    "image": "🌾",
+    "duration": "70-90 days",
+    "yield": "1.5-2 tons/hectare",
+    "investment": "Low",
+    "season": [
+      "Kharif",
+      "Summer"
+    ],
+    "requirements": {
+      "tempMin": 25,
+      "tempMax": 35,
+      "rainfallMin": 300,
+      "rainfallMax": 600,
+      "soilTypes": [
+        "Sandy",
+        "Sandy Loam"
+      ],
+      "phMin": 6.5,
+      "phMax": 8.0,
+      "waterNeeds": "Low"
+    },
+    "profitability": {
+      "costPerHectare": 15000,
+      "revenuePerHectare": 35000,
+      "profitPerHectare": 20000,
+      "riskLevel": "Low",
+      "marketDemand": "Medium",
+      "priceTrend": "Increasing"
+    },
+    "description": "Highly drought-tolerant cereal. Ideal for rainfed agriculture in dry regions.",
+    "tips": [
+      "Sow with onset of monsoon",
+      "Thin to 10 cm spacing",
+      "Control downy mildew"
+    ],
+    "family": "Poaceae",
+    "nutrientDemand": "Low",
+    "rootDepth": "Deep",
+    "rotation": {
+      "goodAfter": [
+        "Groundnut",
+        "Chickpea"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Mustard"
+      ],
+      "avoid": [
+        "Pearl Millet"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Barley",
+    "scientificName": "Hordeum vulgare",
+    "category": "Cereals",
+    "image": "🌾",
+    "duration": "110-130 days",
+    "yield": "2-3 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Rabi"
+    ],
+    "requirements": {
+      "tempMin": 12,
+      "tempMax": 25,
+      "rainfallMin": 300,
+      "rainfallMax": 500,
+      "soilTypes": [
+        "Loamy",
+        "Clay Loam"
+      ],
+      "phMin": 6.5,
+      "phMax": 8.5,
+      "waterNeeds": "Low"
+    },
+    "profitability": {
+      "costPerHectare": 25000,
+      "revenuePerHectare": 50000,
+      "profitPerHectare": 25000,
+      "riskLevel": "Low",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Winter cereal used for food, fodder, and brewing. Tolerates saline and alkaline soils.",
+    "tips": [
+      "Sow early in season",
+      "Use seed rate of 100 kg/ha",
+      "Control rust diseases"
+    ],
+    "family": "Poaceae",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [
+        "Rice",
+        "Maize"
+      ],
+      "goodBefore": [
+        "Pulses",
+        "Oilseeds"
+      ],
+      "avoid": [
+        "Wheat"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Chickpea",
+    "scientificName": "Cicer arietinum",
+    "category": "Pulses",
+    "image": "🫘",
+    "duration": "90-120 days",
+    "yield": "1-1.5 tons/hectare",
+    "investment": "Low",
+    "season": [
+      "Rabi"
+    ],
+    "requirements": {
+      "tempMin": 15,
+      "tempMax": 30,
+      "rainfallMin": 400,
+      "rainfallMax": 600,
+      "soilTypes": [
+        "Sandy Loam",
+        "Loamy"
+      ],
+      "phMin": 6.0,
+      "phMax": 7.5,
+      "waterNeeds": "Low"
+    },
+    "profitability": {
+      "costPerHectare": 20000,
+      "revenuePerHectare": 45000,
+      "profitPerHectare": 25000,
+      "riskLevel": "Low",
+      "marketDemand": "High",
+      "priceTrend": "Increasing"
+    },
+    "description": "Important pulse crop that fixes nitrogen in soil. Drought tolerant and improves soil health.",
+    "tips": [
+      "Treat seeds with rhizobium",
+      "Avoid waterlogging",
+      "Control pod borer"
+    ],
+    "family": "Fabaceae",
+    "nutrientDemand": "Low",
+    "rootDepth": "Medium",
+    "nitrogenFixer": true,
+    "rotation": {
+      "goodAfter": [
+        "Rice",
+        "Cotton"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Cereals"
+      ],
+      "avoid": [
+        "Chickpea"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "name": "Kidneybeans",
+    "scientificName": "Phaseolus vulgaris",
+    "category": "Pulses",
+    "image": "🫘",
+    "duration": "90-100 days",
+    "yield": "1-1.5 tons/hectare",
+    "investment": "Low",
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "requirements": {
+      "tempMin": 18,
+      "tempMax": 30,
+      "rainfallMin": 400,
+      "rainfallMax": 800,
+      "soilTypes": [
+        "Loamy",
+        "Sandy Loam"
+      ],
+      "phMin": 6.0,
+      "phMax": 7.5,
+      "waterNeeds": "Low"
+    },
+    "profitability": {
+      "costPerHectare": 18000,
+      "revenuePerHectare": 40000,
+      "profitPerHectare": 22000,
+      "riskLevel": "Low",
+      "marketDemand": "High",
+      "priceTrend": "Increasing"
+    },
+    "description": "Kidney beans are protein-rich pulses that thrive in warm conditions. Good for soil health.",
+    "tips": [
+      "Plant after last frost",
+      "Provide support for vines",
+      "Harvest when pods are dry"
+    ],
+    "family": "Fabaceae",
+    "nutrientDemand": "Low",
+    "rootDepth": "Medium",
+    "nitrogenFixer": true,
+    "rotation": {
+      "goodAfter": [
+        "Wheat",
+        "Maize"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Cereals"
+      ],
+      "avoid": [
+        "Kidneybeans"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Pigeonpea",
+    "scientificName": "Cajanus cajan",
+    "category": "Pulses",
+    "image": "🫘",
+    "duration": "120-180 days",
+    "yield": "1-1.8 tons/hectare",
+    "investment": "Low",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 600,
+      "rainfallMax": 1000,
+      "soilTypes": [
+        "Sandy Loam",
+        "Loamy"
+      ],
+      "phMin": 6.0,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 22000,
+      "revenuePerHectare": 48000,
+      "profitPerHectare": 26000,
+      "riskLevel": "Low",
+      "marketDemand": "High",
+      "priceTrend": "Stable"
+    },
+    "description": "Drought-tolerant pulse crop with deep root system. Good for intercropping and soil improvement.",
+    "tips": [
+      "Inoculate seeds with rhizobium",
+      "Plant at 60x30 cm spacing",
+      "Control pod borer"
+    ],
+    "family": "Fabaceae",
+    "nutrientDemand": "Low",
+    "rootDepth": "Deep",
+    "nitrogenFixer": true,
+    "rotation": {
+      "goodAfter": [
+        "Cereals",
+        "Oilseeds"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Cereals"
+      ],
+      "avoid": [
+        "Pigeonpea"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "Blackgram",
+    "scientificName": "Vigna mungo",
+    "category": "Pulses",
+    "image": "🫘",
+    "duration": "80-90 days",
+    "yield": "0.8-1.2 tons/hectare",
+    "investment": "Low",
+    "season": [
+      "Kharif",
+      "Summer"
+    ],
+    "requirements": {
+      "tempMin": 25,
+      "tempMax": 35,
+      "rainfallMin": 600,
+      "rainfallMax": 1000,
+      "soilTypes": [
+        "Clay",
+        "Clay Loam"
+      ],
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 15000,
+      "revenuePerHectare": 35000,
+      "profitPerHectare": 20000,
+      "riskLevel": "Medium",
+      "marketDemand": "High",
+      "priceTrend": "Increasing"
+    },
+    "description": "Short duration pulse crop suitable for rice fallows. Improves soil fertility.",
+    "tips": [
+      "Treat seeds with carbendazim",
+      "Sow at 30x10 cm spacing",
+      "Control yellow mosaic virus"
+    ],
+    "family": "Fabaceae",
+    "nutrientDemand": "Low",
+    "rootDepth": "Shallow",
+    "nitrogenFixer": true,
+    "rotation": {
+      "goodAfter": [
+        "Rice",
+        "Maize"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Mustard"
+      ],
+      "avoid": [
+        "Blackgram"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "Mungbean",
+    "scientificName": "Vigna radiata",
+    "category": "Pulses",
+    "image": "🫘",
+    "duration": "65-75 days",
+    "yield": "0.8-1.2 tons/hectare",
+    "investment": "Low",
+    "season": [
+      "Kharif",
+      "Summer"
+    ],
+    "requirements": {
+      "tempMin": 25,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 800,
+      "soilTypes": [
+        "Sandy Loam",
+        "Loamy"
+      ],
+      "phMin": 6.2,
+      "phMax": 7.5,
+      "waterNeeds": "Low"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 30000,
+      "profitPerHectare": 18000,
+      "riskLevel": "Low",
+      "marketDemand": "High",
+      "priceTrend": "Stable"
+    },
+    "description": "Short duration pulse ideal for multiple cropping. Drought tolerant and early maturing.",
+    "tips": [
+      "Treat seeds with rhizobium",
+      "Sow at 30x10 cm spacing",
+      "Control yellow mosaic virus"
+    ],
+    "family": "Fabaceae",
+    "nutrientDemand": "Low",
+    "rootDepth": "Shallow",
+    "nitrogenFixer": true,
+    "rotation": {
+      "goodAfter": [
+        "Potato",
+        "Wheat"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Mustard"
+      ],
+      "avoid": [
+        "Mungbean"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "Lentil",
+    "scientificName": "Lens culinaris",
+    "category": "Pulses",
+    "image": "🫘",
+    "duration": "100-120 days",
+    "yield": "0.8-1.2 tons/hectare",
+    "investment": "Low",
+    "season": [
+      "Rabi"
+    ],
+    "requirements": {
+      "tempMin": 10,
+      "tempMax": 25,
+      "rainfallMin": 300,
+      "rainfallMax": 500,
+      "soilTypes": [
+        "Clay Loam",
+        "Loamy"
+      ],
+      "phMin": 6.0,
+      "phMax": 7.0,
+      "waterNeeds": "Low"
+    },
+    "profitability": {
+      "costPerHectare": 18000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 24000,
+      "riskLevel": "Low",
+      "marketDemand": "High",
+      "priceTrend": "Increasing"
+    },
+    "description": "Cool season pulse crop rich in protein. Suitable for rice-based cropping systems.",
+    "tips": [
+      "Sow early in November",
+      "Inoculate seeds with rhizobium",
+      "Control rust disease"
+    ],
+    "family": "Fabaceae",
+    "nutrientDemand": "Low",
+    "rootDepth": "Shallow",
+    "nitrogenFixer": true,
+    "rotation": {
+      "goodAfter": [
+        "Rice",
+        "Maize"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Mustard"
+      ],
+      "avoid": [
+        "Lentil"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "name": "Mothbeans",
+    "scientificName": "Vigna aconitifolia",
+    "category": "Pulses",
+    "image": "🫘",
+    "duration": "75-90 days",
+    "yield": "0.6-1 ton/hectare",
+    "investment": "Low",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 25,
+      "tempMax": 35,
+      "rainfallMin": 300,
+      "rainfallMax": 600,
+      "soilTypes": [
+        "Sandy",
+        "Sandy Loam"
+      ],
+      "phMin": 7.0,
+      "phMax": 8.5,
+      "waterNeeds": "Low"
+    },
+    "profitability": {
+      "costPerHectare": 10000,
+      "revenuePerHectare": 25000,
+      "profitPerHectare": 15000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Highly drought-tolerant pulse crop for arid regions. Good for forage and grain.",
+    "tips": [
+      "Sow with onset of monsoon",
+      "Use seed rate of 15-20 kg/ha",
+      "Control yellow mosaic virus"
+    ],
+    "family": "Fabaceae",
+    "nutrientDemand": "Low",
+    "rootDepth": "Deep",
+    "nitrogenFixer": true,
+    "rotation": {
+      "goodAfter": [
+        "Pearl Millet",
+        "Sorghum"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Mustard"
+      ],
+      "avoid": [
+        "Mothbeans"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "name": "Soyabean",
+    "scientificName": "Glycine max",
+    "category": "Pulses",
+    "image": "🫘",
+    "duration": "90-110 days",
+    "yield": "1.5-2.5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 30,
+      "rainfallMin": 500,
+      "rainfallMax": 800,
+      "soilTypes": [
+        "Loamy",
+        "Clay Loam"
+      ],
+      "phMin": 6.0,
+      "phMax": 7.0,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 25000,
+      "revenuePerHectare": 50000,
+      "profitPerHectare": 25000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Oilseed crop with high protein content. Also fixes nitrogen in soil.",
+    "tips": [
+      "Inoculate seeds with rhizobium",
+      "Control leaf miner",
+      "Harvest when leaves turn yellow"
+    ],
+    "family": "Fabaceae",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "nitrogenFixer": true,
+    "rotation": {
+      "goodAfter": [
+        "Wheat",
+        "Maize"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Cereals"
+      ],
+      "avoid": [
+        "Soyabean"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "name": "Groundnut",
+    "scientificName": "Arachis hypogaea",
+    "category": "Oilseeds",
+    "image": "🥜",
+    "duration": "100-120 days",
+    "yield": "1.5-2.5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif",
+      "Summer"
+    ],
+    "requirements": {
+      "tempMin": 25,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1000,
+      "soilTypes": [
+        "Sandy Loam",
+        "Loamy"
+      ],
+      "phMin": 6.0,
+      "phMax": 7.0,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 30000,
+      "revenuePerHectare": 60000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "High",
+      "priceTrend": "Increasing"
+    },
+    "description": "Important oilseed and cash crop. Improves soil fertility through nitrogen fixation.",
+    "tips": [
+      "Treat seeds with fungicide",
+      "Ridge planting for better yield",
+      "Control leaf spot disease"
+    ],
+    "family": "Fabaceae",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Shallow",
+    "nitrogenFixer": true,
+    "rotation": {
+      "goodAfter": [
+        "Cereals",
+        "Pulses"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Barley"
+      ],
+      "avoid": [
+        "Groundnut"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "name": "Sunflower",
+    "scientificName": "Helianthus annuus",
+    "category": "Oilseeds",
+    "image": "🌻",
+    "duration": "90-100 days",
+    "yield": "1-2 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 30,
+      "rainfallMin": 400,
+      "rainfallMax": 600,
+      "soilTypes": [
+        "Sandy Loam",
+        "Loamy"
+      ],
+      "phMin": 6.0,
+      "phMax": 8.0,
+      "waterNeeds": "Low"
+    },
+    "profitability": {
+      "costPerHectare": 25000,
+      "revenuePerHectare": 55000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Drought-tolerant oilseed crop with beautiful flowers. Good for bee farming.",
+    "tips": [
+      "Sow at 60x30 cm spacing",
+      "Provide support against lodging",
+      "Control head rot"
+    ],
+    "family": "Asteraceae",
+    "nutrientDemand": "High",
+    "rootDepth": "Deep",
+    "rotation": {
+      "goodAfter": [
+        "Rice",
+        "Wheat"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Chickpea"
+      ],
+      "avoid": [
+        "Sunflower"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "name": "Sesame",
+    "scientificName": "",
+    "category": "Oilseeds",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Sesame is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Sesame"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "name": "Mustard",
+    "scientificName": "",
+    "category": "Oilseeds",
+    "image": "🌼",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Mustard is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Mustard"
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "name": "Cotton",
+    "scientificName": "Gossypium hirsutum",
+    "category": "Cash Crops",
+    "image": "☁️",
+    "duration": "150-180 days",
+    "yield": "1.5-2.5 tons/hectare",
+    "investment": "High",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 21,
+      "tempMax": 35,
+      "rainfallMin": 600,
+      "rainfallMax": 1200,
+      "soilTypes": [
+        "Black Soil",
+        "Loamy"
+      ],
+      "phMin": 6.0,
+      "phMax": 8.0,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 60000,
+      "revenuePerHectare": 120000,
+      "profitPerHectare": 60000,
+      "riskLevel": "High",
+      "marketDemand": "Medium",
+      "priceTrend": "Volatile"
+    },
+    "description": "Major cash crop with high market value. Requires careful pest management.",
+    "tips": [
+      "Use Bt cotton seeds",
+      "Implement pest management",
+      "Irrigate during flowering"
+    ],
+    "family": "Malvaceae",
+    "nutrientDemand": "High",
+    "rootDepth": "Deep",
+    "rotation": {
+      "goodAfter": [
+        "Wheat",
+        "Chickpea"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Chickpea"
+      ],
+      "avoid": [
+        "Cotton"
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "name": "Sugarcane",
+    "scientificName": "Saccharum officinarum",
+    "category": "Cash Crops",
+    "image": "🎋",
+    "duration": "300-365 days",
+    "yield": "60-80 tons/hectare",
+    "investment": "High",
+    "season": [
+      "Year-round"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 1500,
+      "rainfallMax": 2500,
+      "soilTypes": [
+        "Loamy",
+        "Clay Loam"
+      ],
+      "phMin": 6.5,
+      "phMax": 7.5,
+      "waterNeeds": "High"
+    },
+    "profitability": {
+      "costPerHectare": 80000,
+      "revenuePerHectare": 150000,
+      "profitPerHectare": 70000,
+      "riskLevel": "Medium",
+      "marketDemand": "High",
+      "priceTrend": "Stable"
+    },
+    "description": "Long-duration cash crop with multiple revenue streams. High investment but good returns.",
+    "tips": [
+      "Irrigate at 7-10 day intervals",
+      "Control borers",
+      "Apply fertilizers in splits"
+    ],
+    "family": "Poaceae",
+    "nutrientDemand": "Very High",
+    "rootDepth": "Deep",
+    "rotation": {
+      "goodAfter": [
+        "Wheat",
+        "Chickpea"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Potato"
+      ],
+      "avoid": [
+        "Sugarcane"
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "name": "Jute",
+    "scientificName": "Corchorus olitorius",
+    "category": "Cash Crops",
+    "image": "🎍",
+    "duration": "120-150 days",
+    "yield": "2-3 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 24,
+      "tempMax": 37,
+      "rainfallMin": 1000,
+      "rainfallMax": 2000,
+      "soilTypes": [
+        "Clay",
+        "Clay Loam"
+      ],
+      "phMin": 6.0,
+      "phMax": 7.5,
+      "waterNeeds": "High"
+    },
+    "profitability": {
+      "costPerHectare": 30000,
+      "revenuePerHectare": 60000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Fiber crop for making sacks, bags, and textiles. Requires high humidity and rainfall.",
+    "tips": [
+      "Sow in well-prepared field",
+      "Ret in clean water",
+      "Control stem rot"
+    ],
+    "family": "Malvaceae",
+    "nutrientDemand": "High",
+    "rootDepth": "Shallow",
+    "rotation": {
+      "goodAfter": [
+        "Rice",
+        "Potato"
+      ],
+      "goodBefore": [
+        "Wheat",
+        "Mustard"
+      ],
+      "avoid": [
+        "Jute"
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "name": "Coffee",
+    "scientificName": "Coffea arabica",
+    "category": "Cash Crops",
+    "image": "☕",
+    "duration": "3-4 years to bear",
+    "yield": "0.5-1 ton/hectare",
+    "investment": "High",
+    "season": [
+      "Year-round"
+    ],
+    "requirements": {
+      "tempMin": 15,
+      "tempMax": 25,
+      "rainfallMin": 1500,
+      "rainfallMax": 2500,
+      "soilTypes": [
+        "Loamy",
+        "Red Soil"
+      ],
+      "phMin": 6.0,
+      "phMax": 6.5,
+      "waterNeeds": "High"
+    },
+    "profitability": {
+      "costPerHectare": 100000,
+      "revenuePerHectare": 200000,
+      "profitPerHectare": 100000,
+      "riskLevel": "High",
+      "marketDemand": "High",
+      "priceTrend": "Increasing"
+    },
+    "description": "Perennial plantation crop with high value. Requires specific climatic conditions.",
+    "tips": [
+      "Provide shade with silver oak",
+      "Prune regularly",
+      "Control leaf rust"
+    ],
+    "family": "Rubiaceae",
+    "nutrientDemand": "High",
+    "rootDepth": "Deep",
+    "rotation": {
+      "goodAfter": [
+        "Legumes",
+        "Vegetables"
+      ],
+      "goodBefore": [
+        "Pepper",
+        "Cardamom"
+      ],
+      "avoid": [
+        "Coffee"
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "name": "And Mustard",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "And Mustard is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "And Mustard"
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "name": "Apple",
+    "scientificName": "",
+    "category": "Fruits",
+    "image": "🍏",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Apple is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Apple"
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "name": "Apricot",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Apricot is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Apricot"
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "name": "Arecanut",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Arecanut is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Arecanut"
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "name": "Bamboo",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Bamboo is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Bamboo"
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "name": "Banana",
+    "scientificName": "",
+    "category": "Fruits",
+    "image": "🍌",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 48000,
+      "revenuePerHectare": 168000,
+      "profitPerHectare": 120000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Banana is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Banana"
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "name": "Beans",
+    "scientificName": "",
+    "category": "Pulses",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Beans is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Beans"
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "name": "Breadfruit",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Breadfruit is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Breadfruit"
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "name": "Buckwheat",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Buckwheat is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Buckwheat"
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "name": "Cabbage",
+    "scientificName": "",
+    "category": "Vegetables",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Cabbage is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Cabbage"
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "name": "Capsicum",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Capsicum is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Capsicum"
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "name": "Cardamom",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Cardamom is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Cardamom"
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "name": "Cashew",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Cashew is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Cashew"
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "name": "Castor",
+    "scientificName": "",
+    "category": "Oilseeds",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Castor is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Castor"
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "name": "Cauliflower",
+    "scientificName": "",
+    "category": "Vegetables",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Cauliflower is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Cauliflower"
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "name": "Chilli",
+    "scientificName": "",
+    "category": "Vegetables",
+    "image": "🌶️",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Chilli is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Chilli"
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "name": "Coconut",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🥥",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Coconut is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Coconut"
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "name": "Coriander",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Coriander is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Coriander"
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "name": "Cumin",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Cumin is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Cumin"
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "name": "Fenugreek",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Fenugreek is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Fenugreek"
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "name": "Finger Millet",
+    "scientificName": "",
+    "category": "Cereals",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Finger Millet is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Finger Millet"
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "name": "Garlic",
+    "scientificName": "",
+    "category": "Vegetables",
+    "image": "🧄",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Garlic is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Garlic"
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "name": "Ginger",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🫚",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Ginger is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Ginger"
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "name": "Gooseberry",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Gooseberry is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Gooseberry"
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "name": "Grape",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🍇",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Grape is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Grape"
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "name": "Guava",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Guava is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Guava"
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "name": "Jackfruit",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Jackfruit is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Jackfruit"
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "name": "Linseed",
+    "scientificName": "",
+    "category": "Oilseeds",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Linseed is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Linseed"
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "name": "Litchi",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Litchi is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Litchi"
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "name": "Mango",
+    "scientificName": "",
+    "category": "Fruits",
+    "image": "🥭",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Mango is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Mango"
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "name": "Mentha",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Mentha is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Mentha"
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "name": "Millet",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Millet is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Millet"
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "name": "Mulberry",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Mulberry is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Mulberry"
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "name": "Niger",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Niger is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Niger"
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "name": "Onion",
+    "scientificName": "",
+    "category": "Vegetables",
+    "image": "🧅",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 24000,
+      "revenuePerHectare": 84000,
+      "profitPerHectare": 60000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Onion is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Onion"
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "name": "Opium",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Opium is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Opium"
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "name": "Orange",
+    "scientificName": "",
+    "category": "Fruits",
+    "image": "🍊",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Orange is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Orange"
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "name": "Pea",
+    "scientificName": "",
+    "category": "Pulses",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Pea is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Pea"
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "name": "Pear",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Pear is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Pear"
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "name": "Pepper",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Pepper is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Pepper"
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "name": "Pineapple",
+    "scientificName": "",
+    "category": "Fruits",
+    "image": "🍍",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Pineapple is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Pineapple"
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "name": "Plum",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Plum is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Plum"
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "name": "Pomegranate",
+    "scientificName": "",
+    "category": "Fruits",
+    "image": "🍎",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 48000,
+      "revenuePerHectare": 168000,
+      "profitPerHectare": 120000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Pomegranate is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Pomegranate"
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "name": "Potato",
+    "scientificName": "",
+    "category": "Vegetables",
+    "image": "🥔",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 24000,
+      "revenuePerHectare": 84000,
+      "profitPerHectare": 60000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Potato is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Potato"
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "name": "Rubber",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Rubber is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Rubber"
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "name": "Saffron",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Saffron is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Saffron"
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "name": "Tapioca",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Tapioca is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Tapioca"
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "name": "Tea",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🍃",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 48000,
+      "revenuePerHectare": 168000,
+      "profitPerHectare": 120000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Tea is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Tea"
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "name": "Tobacco",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Tobacco is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Tobacco"
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "name": "Tomato",
+    "scientificName": "",
+    "category": "Vegetables",
+    "image": "🍅",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 24000,
+      "revenuePerHectare": 84000,
+      "profitPerHectare": 60000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Tomato is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Tomato"
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "name": "Turmeric",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Turmeric is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Turmeric"
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "name": "Urban Area; Limited Agriculture",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Urban Area; Limited Agriculture is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Urban Area; Limited Agriculture"
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "name": "Walnut",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Walnut is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Walnut"
+      ]
+    }
+  },
+  {
+    "id": 76,
+    "name": "Yam",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Yam is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Yam"
+      ]
+    }
+  },
+  {
+    "id": 77,
+    "name": "Arcanut",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Arcanut is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Arcanut"
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "name": "Arhar/Tur",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Arhar/Tur is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Arhar/Tur"
+      ]
+    }
+  },
+  {
+    "id": 79,
+    "name": "Atcanut",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Atcanut is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Atcanut"
+      ]
+    }
+  },
+  {
+    "id": 80,
+    "name": "Beans & Mutter",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Beans & Mutter is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Beans & Mutter"
+      ]
+    }
+  },
+  {
+    "id": 81,
+    "name": "Bhindi",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Bhindi is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Bhindi"
+      ]
+    }
+  },
+  {
+    "id": 82,
+    "name": "Brinjal",
+    "scientificName": "",
+    "category": "Vegetables",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Brinjal is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Brinjal"
+      ]
+    }
+  },
+  {
+    "id": 83,
+    "name": "Carrot",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Carrot is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Carrot"
+      ]
+    }
+  },
+  {
+    "id": 84,
+    "name": "Cashewnut Processed",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Cashewnut Processed is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Cashewnut Processed"
+      ]
+    }
+  },
+  {
+    "id": 85,
+    "name": "Cashewnut Raw",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Cashewnut Raw is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Cashewnut Raw"
+      ]
+    }
+  },
+  {
+    "id": 86,
+    "name": "Castor Seed",
+    "scientificName": "",
+    "category": "Oilseeds",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Castor Seed is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Castor Seed"
+      ]
+    }
+  },
+  {
+    "id": 87,
+    "name": "Citrus Fruit",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Citrus Fruit is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Citrus Fruit"
+      ]
+    }
+  },
+  {
+    "id": 88,
+    "name": "Cond Spcs Other",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Cond Spcs Other is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Cond Spcs Other"
+      ]
+    }
+  },
+  {
+    "id": 89,
+    "name": "Cowpea",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Cowpea is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Cowpea"
+      ]
+    }
+  },
+  {
+    "id": 90,
+    "name": "Cucumber",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Cucumber is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Cucumber"
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "name": "Dry Chillies",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Dry Chillies is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Dry Chillies"
+      ]
+    }
+  },
+  {
+    "id": 92,
+    "name": "Dry Ginger",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Dry Ginger is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Dry Ginger"
+      ]
+    }
+  },
+  {
+    "id": 93,
+    "name": "Guar Seed",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Guar Seed is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Guar Seed"
+      ]
+    }
+  },
+  {
+    "id": 94,
+    "name": "Horse Gram",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Horse Gram is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Horse Gram"
+      ]
+    }
+  },
+  {
+    "id": 95,
+    "name": "Jack Fruit",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Jack Fruit is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Jack Fruit"
+      ]
+    }
+  },
+  {
+    "id": 96,
+    "name": "Jute & Mesta",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Jute & Mesta is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Jute & Mesta"
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "name": "Kapas",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Kapas is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Kapas"
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "name": "Khesari",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Khesari is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Khesari"
+      ]
+    }
+  },
+  {
+    "id": 99,
+    "name": "Korra",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Korra is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Korra"
+      ]
+    }
+  },
+  {
+    "id": 100,
+    "name": "Lemon",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Lemon is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Lemon"
+      ]
+    }
+  },
+  {
+    "id": 101,
+    "name": "Masoor",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Masoor is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Masoor"
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "name": "Mesta",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Mesta is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Mesta"
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "name": "Moth",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Moth is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Moth"
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "name": "Niger Seed",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Niger Seed is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Niger Seed"
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "name": "Oilseeds Total",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Oilseeds Total is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Oilseeds Total"
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "name": "Other Cereals & Millets",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Other Cereals & Millets is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Other Cereals & Millets"
+      ]
+    }
+  },
+  {
+    "id": 107,
+    "name": "Other Misc. Pulses",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Other Misc. Pulses is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Other Misc. Pulses"
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "name": "Papaya",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Papaya is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Papaya"
+      ]
+    }
+  },
+  {
+    "id": 109,
+    "name": "Peas & Beans",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Peas & Beans is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Peas & Beans"
+      ]
+    }
+  },
+  {
+    "id": 110,
+    "name": "Pome Fruit",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Pome Fruit is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Pome Fruit"
+      ]
+    }
+  },
+  {
+    "id": 111,
+    "name": "Pulses Total",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Pulses Total is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Pulses Total"
+      ]
+    }
+  },
+  {
+    "id": 112,
+    "name": "Rajmash Kholar",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Rajmash Kholar is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Rajmash Kholar"
+      ]
+    }
+  },
+  {
+    "id": 113,
+    "name": "Rapeseed &Mustard",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Rapeseed &Mustard is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Rapeseed &Mustard"
+      ]
+    }
+  },
+  {
+    "id": 114,
+    "name": "Redish",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Redish is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Redish"
+      ]
+    }
+  },
+  {
+    "id": 115,
+    "name": "Safflower",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Safflower is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Safflower"
+      ]
+    }
+  },
+  {
+    "id": 116,
+    "name": "Samai",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Samai is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Samai"
+      ]
+    }
+  },
+  {
+    "id": 117,
+    "name": "Sannhamp",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Sannhamp is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Sannhamp"
+      ]
+    }
+  },
+  {
+    "id": 118,
+    "name": "Sesamum",
+    "scientificName": "",
+    "category": "Oilseeds",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Low"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Sesamum is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Sesamum"
+      ]
+    }
+  },
+  {
+    "id": 119,
+    "name": "Small Millets",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Small Millets is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Small Millets"
+      ]
+    }
+  },
+  {
+    "id": 120,
+    "name": "Sweet Potato",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Sweet Potato is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Sweet Potato"
+      ]
+    }
+  },
+  {
+    "id": 121,
+    "name": "Total Foodgrain",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Total Foodgrain is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Total Foodgrain"
+      ]
+    }
+  },
+  {
+    "id": 122,
+    "name": "Turnip",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Turnip is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Turnip"
+      ]
+    }
+  },
+  {
+    "id": 123,
+    "name": "Varagu",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Varagu is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Varagu"
+      ]
+    }
+  },
+  {
+    "id": 124,
+    "name": "Water Melon",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Summer"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Water Melon is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Water Melon"
+      ]
+    }
+  },
+  {
+    "id": 125,
+    "name": "Gram",
+    "scientificName": "",
+    "category": "Cash Crops",
+    "image": "🌱",
+    "duration": "90-120 days",
+    "yield": "2-5 tons/hectare",
+    "investment": "Medium",
+    "season": [
+      "Main_Rabi",
+      "Main_Summer",
+      "Main_Kharif"
+    ],
+    "requirements": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "rainfallMin": 500,
+      "rainfallMax": 1500,
+      "soilTypes": [
+        "Loamy"
+      ],
+      "phMin": 5.5,
+      "phMax": 7.5,
+      "waterNeeds": "Medium"
+    },
+    "profitability": {
+      "costPerHectare": 12000,
+      "revenuePerHectare": 42000,
+      "profitPerHectare": 30000,
+      "riskLevel": "Medium",
+      "marketDemand": "Medium",
+      "priceTrend": "Stable"
+    },
+    "description": "Gram is an important crop suitable for Indian agriculture.",
+    "tips": [
+      "Use quality seeds",
+      "Monitor irrigation regularly",
+      "Follow crop rotation practices"
+    ],
+    "family": "",
+    "nutrientDemand": "Medium",
+    "rootDepth": "Medium",
+    "rotation": {
+      "goodAfter": [],
+      "goodBefore": [],
+      "avoid": [
+        "Gram"
+      ]
+    }
+  }
+]
